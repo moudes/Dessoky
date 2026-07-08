@@ -22,7 +22,7 @@ export type CaseStudy = {
 
 export const siteSettings = {
   showHeroMediaOnMobile: false,
-  showCaseStudies: true,
+  showCaseStudies: false,
   defaultCaseStudyOpenMode: "modal" as const,
 };
 
@@ -55,9 +55,18 @@ export const positioningTags = ["Shopify", "Performance Marketing", "CRO", "GA4 
 export const brands: BrandItem[] = [
   // Logo option: put the file in /public/logos and set logoSrc, for example logoSrc: "/logos/iys.svg".
   // Clickable option: add href. Leave href empty to keep it non-clickable.
-  { name: "In Your Shoe", shortName: "IYS", href: "#" },
+  { name: "In Your Shoe", shortName: "InYouShoe", href: "#" },
   { name: "Mlameh", shortName: "MLAMEH" },
-  { name: "ST Jeans", shortName: "STJEANS" },
+  { name: "ST Jeans", shortName: "STENG" },
+  { name: "ST Jeans", shortName: "1718 Coffee" },  
+  { name: "ST Jeans", shortName: "Mobilcom" },
+  { name: "ST Jeans", shortName: "Khatoon" },
+  { name: "ST Jeans", shortName: "ViewWater" },
+  { name: "ST Jeans", shortName: "Cleo Boutique" },
+  { name: "ST Jeans", shortName: "Seec" },
+  { name: "ST Jeans", shortName: "DOOS" },
+  { name: "ST Jeans", shortName: "AIMS" },
+  { name: "ST Jeans", shortName: "WildWeek" },
   { name: "Edura", shortName: "EDURA" },
   { name: "Teluxy", shortName: "TELUXY" },
   { name: "Enkendle", shortName: "ENKENDLE" },
@@ -166,19 +175,83 @@ export const experiences = [
   {
     title: "Head of E-commerce & Performance Marketing",
     company: "Mlameh",
-    period: "2021–2024",
+    period: "2021–Present",
     description:
       "Built and managed ecommerce and performance marketing systems, improved online revenue, delivery performance, social commerce, and paid media execution.",
     tags: ["Performance Marketing", "Ecommerce", "Retail", "Operations"],
   },
   {
-    title: "Performance Marketing & Growth Consultant",
-    company: "Selected Projects",
-    period: "2018–Present",
+    title: "eCom and Performance Manager",
+    company: "STENG",
+    period: "2022–2023",
     description:
       "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
     tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
   },
+    {
+    title: "Digital Marketing Manager",
+    company: "EduraAPP",
+    period: "2020–2021",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+  {
+    title: "Digital Marketing Specialist",
+    company: "Gegraph Agency",
+    period: "2018–2021",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+    {
+    title: "Operation & Marketing Coordinator",
+    company: "EQ",
+    period: "2016–2018",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+  {
+    title: "Content Writer/Editor",
+    company: "IONerds",
+    period: "2014–2016",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+  {
+    title: "Performance Marketing Manager",
+    company: "Docter Media",
+    period: "2024–2025",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["UAE", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+  {
+    title: "Performance Marketing analyst",
+    company: "Enkedile",
+    period: "2024–2025",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["UAE", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+    {
+    title: "Digital Marketing Manager",
+    company: "ViewWater",
+    period: "Project",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["KSA", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+    },
+    {
+    title: "Website Analyst",
+    company: "Seec",
+    period: "Project",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["KSA", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+    },
 ];
 
 export const links = [
