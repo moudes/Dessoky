@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f9f9f9;
+  color: #1a1c1c;
+}
+
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.marquee-container {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: 40px;
+}
+
+.marquee-content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: 40px;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
