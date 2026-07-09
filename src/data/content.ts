@@ -22,7 +22,7 @@ export type CaseStudy = {
 
 export const siteSettings = {
   showHeroMediaOnMobile: false,
-  showCaseStudies: true,
+  showCaseStudies: false,
   defaultCaseStudyOpenMode: "modal" as const,
 };
 
@@ -45,8 +45,8 @@ export const profile = {
 };
 
 export const heroStats = [
-  { label: "Experience", value: "8+ yrs" },
-  { label: "Core markets", value: "MENA + GCC" },
+  { label: "Experience", value: "+8 yrs" },
+  { label: "Core markets", value: "Egy, GCC" },
   { label: "Focus", value: "DTC Fashion" },
 ];
 
@@ -62,6 +62,11 @@ export const brands: BrandItem[] = [
   { name: "ST Jeans", shortName: "Mobilcom" },
   { name: "ST Jeans", shortName: "Khatoon" },
   { name: "ST Jeans", shortName: "ViewWater" },
+  { name: "ST Jeans", shortName: "Faya Studio" },
+  { name: "ST Jeans", shortName: "shashlik" },
+  { name: "ST Jeans", shortName: "financial Gym" },
+  { name: "ST Jeans", shortName: "rasheed" },
+  { name: "ST Jeans", shortName: "Apex" },
   { name: "ST Jeans", shortName: "Cleo Boutique" },
   { name: "ST Jeans", shortName: "Seec" },
   { name: "ST Jeans", shortName: "DOOS" },
