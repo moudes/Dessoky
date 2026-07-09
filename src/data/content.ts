@@ -22,7 +22,7 @@ export type CaseStudy = {
 
 export const siteSettings = {
   showHeroMediaOnMobile: false,
-  showCaseStudies: false,
+  showCaseStudies: true,
   defaultCaseStudyOpenMode: "modal" as const,
 };
 
