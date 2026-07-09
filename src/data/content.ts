@@ -168,6 +168,110 @@ export const caseStudies: CaseStudy[] = [
   },
 ];
 
+export const experienceGroups = [
+  {
+    title: "Full-Time Experience",
+    description:
+      "Long-term roles where I owned or supported ecommerce growth, performance marketing, operations, content, reporting, and business execution.",
+    items: [
+      {
+        title: "E-commerce & Growth Manager",
+        company: "In Your Shoe",
+        period: "2025–Present",
+        description:
+          "Leading ecommerce growth across Shopify, performance marketing, CRO, reporting, retention campaigns, website optimization, and international expansion initiatives.",
+        tags: ["Shopify", "DTC", "Fashion", "Growth"],
+      },
+      {
+        title: "Head of E-commerce & Performance Marketing",
+        company: "Mlameh",
+        period: "2021–Present",
+        description:
+          "Built and managed ecommerce and performance marketing systems, improved online revenue, delivery performance, social commerce, and paid media execution.",
+        tags: ["Performance Marketing", "Ecommerce", "Retail", "Operations"],
+      },
+      {
+        title: "eCom and Performance Manager",
+        company: "STENG",
+        period: "2022–2023",
+        description:
+          "Supported ecommerce and performance growth through paid media execution, funnel improvements, reporting, and digital optimization.",
+        tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+      },
+      {
+        title: "Digital Marketing Manager",
+        company: "EduraAPP",
+        period: "2020–2021",
+        description:
+          "Managed digital marketing activities for an education technology product, supporting user acquisition, campaign execution, and retention-focused growth.",
+        tags: ["EdTech", "Digital Marketing", "User Acquisition", "Retention"],
+      },
+      {
+        title: "Digital Marketing Specialist",
+        company: "Gegraph Agency",
+        period: "2018–2021",
+        description:
+          "Worked across digital marketing execution, paid media, content, reporting, and client campaign support for multiple business categories.",
+        tags: ["Agency", "Meta Ads", "Google Ads", "Reporting"],
+      },
+      {
+        title: "Operation & Marketing Coordinator",
+        company: "EQ",
+        period: "2016–2018",
+        description:
+          "Supported operations and marketing coordination, helping connect business execution, customer communication, and campaign activities.",
+        tags: ["Operations", "Marketing", "Coordination"],
+      },
+      {
+        title: "Content Writer/Editor",
+        company: "IONerds",
+        period: "2014–2016",
+        description:
+          "Created and edited digital content, supporting early experience in online communication, publishing, and audience engagement.",
+        tags: ["Content", "Editing", "Digital Media"],
+      },
+    ],
+  },
+  {
+    title: "Selected Consulting & Project-Based Work",
+    description:
+      "Focused consulting, project-based, and client-side work across performance marketing, ecommerce analysis, website optimization, and growth support.",
+    items: [
+      {
+        title: "Performance Marketing Manager",
+        company: "Docter Media",
+        period: "2024–2025",
+        description:
+          "Supported UAE-based healthcare and service brands with paid media management, campaign optimization, reporting, and performance improvement.",
+        tags: ["UAE", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+      },
+      {
+        title: "Performance Marketing Analyst",
+        company: "Enkedile",
+        period: "2024–2025",
+        description:
+          "Supported paid media analysis, campaign audits, reporting, and optimization recommendations for UAE market accounts.",
+        tags: ["UAE", "Performance Analysis", "Meta Ads", "Google Ads"],
+      },
+      {
+        title: "Digital Marketing Manager",
+        company: "ViewWater",
+        period: "Project",
+        description:
+          "Supported digital marketing execution and campaign planning for a project-based KSA market initiative.",
+        tags: ["KSA", "Digital Marketing", "Meta Ads", "Google Ads"],
+      },
+      {
+        title: "Website Analyst",
+        company: "Seec",
+        period: "Project",
+        description:
+          "Reviewed website performance, user journey, and digital experience to identify improvement opportunities for a KSA-based project.",
+        tags: ["KSA", "Website Analysis", "CRO", "Analytics"],
+      },
+    ],
+  },
+];
 export const experiences = [
   {
     title: "E-commerce & Growth Manager",
