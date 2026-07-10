@@ -12,35 +12,41 @@ export function ExperienceAccordion() {
       id="experience"
       className="mx-auto w-full max-w-container-wide px-margin-mobile py-section-gap md:px-8"
     >
-      <div className="mx-auto mb-10 max-w-2xl text-center md:mb-12">
+      <div className="mx-auto mb-10 max-w-2xl text-center md:mb-14">
         <p className="mb-3 font-heading text-section-title uppercase tracking-widest text-text-muted">
           Work Experience
         </p>
 
         <h2 className="font-heading text-[30px] font-semibold leading-tight tracking-[-0.035em] text-primary md:text-headline-xl">
-          Experience, kept simple and scannable.
+          Experience across full-time roles and selected projects.
         </h2>
 
         <p className="mx-auto mt-4 max-w-[620px] text-[15px] leading-7 text-text-muted md:text-body-md">
-          A clear view of my full-time career journey and selected consulting or
+          A clear split between long-term career roles and consulting or
           project-based work across ecommerce, growth, performance marketing,
           and digital execution.
         </p>
       </div>
 
-      <div className="mx-auto max-w-container-max space-y-12">
-        {experienceGroups.map((group) => (
+      <div className="mx-auto max-w-container-max space-y-14">
+        {experienceGroups.map((group, groupIndex) => (
           <div key={group.title}>
-            <div className="mb-4 border-l-2 border-primary/20 pl-4 md:mb-5 md:pl-5">
-              <h3 className="font-heading text-[18px] font-semibold leading-tight text-primary md:text-[22px]">
-                {group.title}
-              </h3>
+            <div className="mb-5 flex items-start gap-4">
+              <div className="mt-1 grid size-9 shrink-0 place-items-center rounded-full bg-primary text-sm font-semibold text-white">
+                {groupIndex + 1}
+              </div>
 
-              {group.description && (
-                <p className="mt-1.5 max-w-[640px] text-[14.5px] leading-6 text-text-muted md:text-[15.5px] md:leading-7">
-                  {group.description}
-                </p>
-              )}
+              <div>
+                <h3 className="font-heading text-[22px] font-semibold leading-tight tracking-[-0.02em] text-primary md:text-[28px]">
+                  {group.title}
+                </h3>
+
+                {group.description && (
+                  <p className="mt-2 max-w-[680px] text-[14.5px] leading-7 text-text-muted md:text-[15.5px]">
+                    {group.description}
+                  </p>
+                )}
+              </div>
             </div>
 
             <div className="space-y-3">
@@ -51,10 +57,10 @@ export function ExperienceAccordion() {
                 return (
                   <article
                     key={`${group.title}-${item.company}-${item.title}`}
-                    className={`overflow-hidden rounded-[1rem] border bg-surface-container-lowest transition-all duration-300 md:rounded-[1.25rem] ${
+                    className={`overflow-hidden rounded-[1.1rem] border bg-surface-container-lowest transition-all duration-300 md:rounded-[1.35rem] ${
                       isActive
-                        ? "border-primary shadow-sm"
-                        : "border-border-low-contrast"
+                        ? "border-primary shadow-[0_14px_40px_rgba(0,0,0,0.06)]"
+                        : "border-border-low-contrast hover:border-primary/30"
                     }`}
                   >
                     <button
@@ -73,7 +79,13 @@ export function ExperienceAccordion() {
                         </span>
                       </span>
 
-                      <span className="grid size-9 shrink-0 place-items-center rounded-full bg-surface-container-low text-primary md:size-10">
+                      <span
+                        className={`grid size-9 shrink-0 place-items-center rounded-full transition-colors duration-300 md:size-10 ${
+                          isActive
+                            ? "bg-primary text-white"
+                            : "bg-surface-container-low text-primary"
+                        }`}
+                      >
                         <Icon
                           name="expand_more"
                           className={`transition-transform duration-300 ${
@@ -89,7 +101,7 @@ export function ExperienceAccordion() {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <div className="px-4 pb-4 text-text-muted md:px-5 md:pb-5">
+                        <div className="border-t border-border-low-contrast px-4 pb-4 pt-4 text-text-muted md:px-5 md:pb-5">
                           <p className="mb-4 text-[14.5px] leading-7 md:text-[15.5px]">
                             {item.description}
                           </p>
