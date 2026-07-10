@@ -36,7 +36,7 @@ export const profile = {
   summary:
     "E-commerce growth and performance marketing professional with 8+ years of experience helping fashion, DTC, healthcare, SaaS, and service brands improve paid media, conversion, reporting, and online revenue.",
   heroImage:
-    "https://lh3.googleusercontent.com/aida/AP1WRLuPjuLonejpvMmzUm4fF1eIugm78UBCBW9DI8bXlNU2FvN56PmSn4a-UpX4-fbcVAgD5EyXySeqS-ZehxOymwBi0Q4MVS-l-8lcv0uFdBMFclPL9Vf8PMtIu42Onn_jna7tZDLGb3IacrjKTUjxSciB9_f8ZEFBIZRJtHVRce-sOIazYZgUfihvNvrKRxbaQhbJG3_MW2VSEvGTkfQietUXvgWsiDKpBi7mq-xwbYquXdiBVJpGewFtqKE",
+    "/profile/ProfileA.png",
   heroImageAlt: "Professional profile image",
   cvUrl: "/Mustafa-ElDessoky-CV.pdf",
   primaryCta: { label: "View experience", href: "#experience" },
