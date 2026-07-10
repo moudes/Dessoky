@@ -36,7 +36,7 @@ export const profile = {
   summary:
     "E-commerce growth and performance marketing professional with 8+ years of experience helping fashion, DTC, healthcare, SaaS, and service brands improve paid media, conversion, reporting, and online revenue.",
   heroImage:
-    "profile/ProfileA.png",
+    "/profile/ProfileA.png",
   heroImageAlt: "Professional profile image",
   cvUrl: "/Mustafa-ElDessoky-CV.pdf",
   primaryCta: { label: "View experience", href: "#experience" },
