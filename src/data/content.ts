@@ -21,8 +21,8 @@ export type CaseStudy = {
 };
 
 export const siteSettings = {
-  showHeroMediaOnMobile: true,
-  showCaseStudies: true,
+  showHeroMediaOnMobile: false,
+  showCaseStudies: false,
   defaultCaseStudyOpenMode: "modal" as const,
 };
 
@@ -45,8 +45,8 @@ export const profile = {
 };
 
 export const heroStats = [
-  { label: "Experience", value: "8+ yrs" },
-  { label: "Core markets", value: "MENA + GCC" },
+  { label: "Experience", value: "+8 yrs" },
+  { label: "Core markets", value: "Egy, GCC" },
   { label: "Focus", value: "DTC Fashion" },
 ];
 
@@ -55,9 +55,23 @@ export const positioningTags = ["Shopify", "Performance Marketing", "CRO", "GA4 
 export const brands: BrandItem[] = [
   // Logo option: put the file in /public/logos and set logoSrc, for example logoSrc: "/logos/iys.svg".
   // Clickable option: add href. Leave href empty to keep it non-clickable.
-  { name: "In Your Shoe", shortName: "IYS", href: "#" },
+  { name: "In Your Shoe", shortName: "InYouShoe", href: "#" },
   { name: "Mlameh", shortName: "MLAMEH" },
-  { name: "ST Jeans", shortName: "STJEANS" },
+  { name: "ST Jeans", shortName: "STENG" },
+  { name: "ST Jeans", shortName: "1718 Coffee" },  
+  { name: "ST Jeans", shortName: "Mobilcom" },
+  { name: "ST Jeans", shortName: "Khatoon" },
+  { name: "ST Jeans", shortName: "ViewWater" },
+  { name: "ST Jeans", shortName: "Faya Studio" },
+  { name: "ST Jeans", shortName: "shashlik" },
+  { name: "ST Jeans", shortName: "financial Gym" },
+  { name: "ST Jeans", shortName: "rasheed" },
+  { name: "ST Jeans", shortName: "Apex" },
+  { name: "ST Jeans", shortName: "Cleo Boutique" },
+  { name: "ST Jeans", shortName: "Seec" },
+  { name: "ST Jeans", shortName: "DOOS" },
+  { name: "ST Jeans", shortName: "AIMS" },
+  { name: "ST Jeans", shortName: "WildWeek" },
   { name: "Edura", shortName: "EDURA" },
   { name: "Teluxy", shortName: "TELUXY" },
   { name: "Enkendle", shortName: "ENKENDLE" },
@@ -154,6 +168,110 @@ export const caseStudies: CaseStudy[] = [
   },
 ];
 
+export const experienceGroups = [
+  {
+    title: "Full-Time Experience",
+    description:
+      "Long-term roles where I owned or supported ecommerce growth, performance marketing, operations, content, reporting, and business execution.",
+    items: [
+      {
+        title: "E-commerce & Growth Manager",
+        company: "In Your Shoe",
+        period: "2025–Present",
+        description:
+          "Leading ecommerce growth across Shopify, performance marketing, CRO, reporting, retention campaigns, website optimization, and international expansion initiatives.",
+        tags: ["Shopify", "DTC", "Fashion", "Growth"],
+      },
+      {
+        title: "Head of E-commerce & Performance Marketing",
+        company: "Mlameh",
+        period: "2021–Present",
+        description:
+          "Built and managed ecommerce and performance marketing systems, improved online revenue, delivery performance, social commerce, and paid media execution.",
+        tags: ["Performance Marketing", "Ecommerce", "Retail", "Operations"],
+      },
+      {
+        title: "eCom and Performance Manager",
+        company: "STENG",
+        period: "2022–2023",
+        description:
+          "Supported ecommerce and performance growth through paid media execution, funnel improvements, reporting, and digital optimization.",
+        tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+      },
+      {
+        title: "Digital Marketing Manager",
+        company: "EduraAPP",
+        period: "2020–2021",
+        description:
+          "Managed digital marketing activities for an education technology product, supporting user acquisition, campaign execution, and retention-focused growth.",
+        tags: ["EdTech", "Digital Marketing", "User Acquisition", "Retention"],
+      },
+      {
+        title: "Digital Marketing Specialist",
+        company: "Gegraph Agency",
+        period: "2018–2021",
+        description:
+          "Worked across digital marketing execution, paid media, content, reporting, and client campaign support for multiple business categories.",
+        tags: ["Agency", "Meta Ads", "Google Ads", "Reporting"],
+      },
+      {
+        title: "Operation & Marketing Coordinator",
+        company: "EQ",
+        period: "2016–2018",
+        description:
+          "Supported operations and marketing coordination, helping connect business execution, customer communication, and campaign activities.",
+        tags: ["Operations", "Marketing", "Coordination"],
+      },
+      {
+        title: "Content Writer/Editor",
+        company: "IONerds",
+        period: "2014–2016",
+        description:
+          "Created and edited digital content, supporting early experience in online communication, publishing, and audience engagement.",
+        tags: ["Content", "Editing", "Digital Media"],
+      },
+    ],
+  },
+  {
+    title: "Selected Consulting & Project-Based Work",
+    description:
+      "Focused consulting, project-based, and client-side work across performance marketing, ecommerce analysis, website optimization, and growth support.",
+    items: [
+      {
+        title: "Performance Marketing Manager",
+        company: "Docter Media",
+        period: "2024–2025",
+        description:
+          "Supported UAE-based healthcare and service brands with paid media management, campaign optimization, reporting, and performance improvement.",
+        tags: ["UAE", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+      },
+      {
+        title: "Performance Marketing Analyst",
+        company: "Enkedile",
+        period: "2024–2025",
+        description:
+          "Supported paid media analysis, campaign audits, reporting, and optimization recommendations for UAE market accounts.",
+        tags: ["UAE", "Performance Analysis", "Meta Ads", "Google Ads"],
+      },
+      {
+        title: "Digital Marketing Manager",
+        company: "ViewWater",
+        period: "Project",
+        description:
+          "Supported digital marketing execution and campaign planning for a project-based KSA market initiative.",
+        tags: ["KSA", "Digital Marketing", "Meta Ads", "Google Ads"],
+      },
+      {
+        title: "Website Analyst",
+        company: "Seec",
+        period: "Project",
+        description:
+          "Reviewed website performance, user journey, and digital experience to identify improvement opportunities for a KSA-based project.",
+        tags: ["KSA", "Website Analysis", "CRO", "Analytics"],
+      },
+    ],
+  },
+];
 export const experiences = [
   {
     title: "E-commerce & Growth Manager",
@@ -166,19 +284,83 @@ export const experiences = [
   {
     title: "Head of E-commerce & Performance Marketing",
     company: "Mlameh",
-    period: "2021–2024",
+    period: "2021–Present",
     description:
       "Built and managed ecommerce and performance marketing systems, improved online revenue, delivery performance, social commerce, and paid media execution.",
     tags: ["Performance Marketing", "Ecommerce", "Retail", "Operations"],
   },
   {
-    title: "Performance Marketing & Growth Consultant",
-    company: "Selected Projects",
-    period: "2018–Present",
+    title: "eCom and Performance Manager",
+    company: "STENG",
+    period: "2022–2023",
     description:
       "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
     tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
   },
+    {
+    title: "Digital Marketing Manager",
+    company: "EduraAPP",
+    period: "2020–2021",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+  {
+    title: "Digital Marketing Specialist",
+    company: "Gegraph Agency",
+    period: "2018–2021",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+    {
+    title: "Operation & Marketing Coordinator",
+    company: "EQ",
+    period: "2016–2018",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+  {
+    title: "Content Writer/Editor",
+    company: "IONerds",
+    period: "2014–2016",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+  {
+    title: "Performance Marketing Manager",
+    company: "Docter Media",
+    period: "2024–2025",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["UAE", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+  {
+    title: "Performance Marketing analyst",
+    company: "Enkedile",
+    period: "2024–2025",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["UAE", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+  },
+    {
+    title: "Digital Marketing Manager",
+    company: "ViewWater",
+    period: "Project",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["KSA", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+    },
+    {
+    title: "Website Analyst",
+    company: "Seec",
+    period: "Project",
+    description:
+      "Supported brands across fashion, healthcare, SaaS, education, and services with paid media audits, funnel improvements, growth plans, and reporting systems.",
+    tags: ["KSA", "Meta Ads", "Google Ads", "CRO", "Analytics"],
+    },
 ];
 
 export const links = [
