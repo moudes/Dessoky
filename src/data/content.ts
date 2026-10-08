@@ -238,6 +238,14 @@ export const experienceGroups = [
       "Focused consulting, project-based, and client-side work across performance marketing, ecommerce analysis, website optimization, and growth support.",
     items: [
       {
+        title: "eCom & Performance Management",
+        company: "A2Z",
+        period: "2025–Present",
+        description:
+          "Supported UAE-based healthcare and service brands with paid media management, campaign optimization, reporting, and performance improvement.",
+        tags: ["Shopify", "Meta Ads", "CRO", "Analytics"],
+      },
+      {
         title: "Performance Marketing Manager",
         company: "Docter Media",
         period: "2024–2025",
